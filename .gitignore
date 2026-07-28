@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Generated exports contain real data from your Nextcloud (folder names,
+# user emails, phone numbers, login times) and should not be
+# published.
+*.txt
+!requirements.txt
+*.csv
